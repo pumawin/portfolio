@@ -110,6 +110,12 @@ $(function () {
     ease: 'power1.in',
     // onComplete: () => initMoving(),
   });
+  mainTL.from('.story1', {
+    y: -20 /* translateY의 약자이다. */,
+    /* repeat: 2 */ /* 원래동작 + 2 ,*/ repeat: -1 /* infinite */,
+    yoyo: true /* alternate */,
+    duration: 2,
+  });
 
   // dandelien 홀씨 날리는 모습
   const sporeWrap = document.querySelector('.spore-wrap');
