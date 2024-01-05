@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Little Dendalien</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/dendaline-logo 2.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
+      integrity="sha512-q54FvbV+gGBn+NvgaD4gpJ7w4wrO00DgW7Rx503PIhrf0CuMwLOwbS+bXgOBFSob+6GVy1HDPfaRLJ8w2jiS4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"
+      integrity="sha512-bxzECOBohzcTcWocMAlNDE2kYs0QgwGs4eD8TlAN2vfovq13kfDfp95sJSZrNpt0VMkpP93ZxLC/+WN/7Trw2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/matter-drop.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="spark"></div>
+    <!-- 인디케이터 -->
+    <ul id="myMenu">
+      <li data-menuanchor="sec1" class="active">
+        <a href="#sec1"><b>MAIN</b></a>
+      </li>
+      <li data-menuanchor="sec2">
+        <a href="#sec2"><b>ABOUT ME</b></a>
+      </li>
+      <li data-menuanchor="sec3">
+        <a href="#sec3"><b>SKILLS</b></a>
+      </li>
+      <li data-menuanchor="sec4">
+        <a href="#sec4"><b>PORTFOLIO</b></a>
+      </li>
+      <li data-menuanchor="sec5">
+        <a href="#sec5"><b>CONTACT ME</b></a>
+      </li>
+    </ul>
+    <div class="all-menu">
+      <ul class="menu">
+        <li>
+          <a href="#">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="#">SKILLS</a>
+        </li>
+        <li>
+          <a href="#">PORTFOLIO</a>
+        </li>
+        <li>
+          <a href="#">PROCESS</a>
+        </li>
+        <li>
+          <a href="#">CONTACT ME</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 인디케이터에 걸었던 것을 똑같이 걸면 같이 작용한다. -->
+    <a href="#" class="btn-menu">
+      <b>menu</b>
+    </a>
+    <!-- 부모의 이름은 id="fullpage, 자식은 class="section" -->
+    <main id="fullpage">
+      <!-- 메인 첫번째 : 소개 -->
+      <section class="section sec1">
+        <div class="bg">
+          <video muted autoplay loop>
+            <source src="./img/cosmos.mp4" type="video/mp4" />
+          </video>
+
+          <!-- 어린왕자, 여우, 행성 -->
+          <div class="prince-wrap">
+            <div class="planet">
+              <img src="./img/planet.png" alt="어린왕자 행성" />
+            </div>
+            <div class="prince"></div>
+            <div class="fox"></div>
+            <div class="dendalien-missing"></div>
+            <div class="spore-wrap">
+              <div class="spore spore1"></div>
+              <div class="spore spore2"></div>
+              <div class="spore spore3"></div>
+              <div class="spore spore4"></div>
+              <div class="spore spore5"></div>
+              <div class="spore spore6"></div>
+              <div class="spore spore7"></div>
+              <div class="spore spore8"></div>
+              <div class="spore spore9"></div>
+              <div class="spore spore10"></div>
+              <div class="spore spore11"></div>
+              <div class="spore spore12"></div>
+              <div class="spore spore13"></div>
+              <div class="spore spore14"></div>
+              <div class="spore spore15"></div>
+              <div class="spore spore16"></div>
+              <div class="spore spore17"></div>
+              <div class="spore spore18"></div>
+            </div>
+          </div>
+
+          <div class="dendalien">
+            <figure class="dendalien01">
+              <a href="#"><img src="./img/dendalien.png" alt="민들레" /></a>
+            </figure>
+
+            <figure class="dendalien02">
+              <a href="#"><img src="./img/dendalien.png" alt="민들레" /></a>
+            </figure>
+
+            <figure class="dendalien03">
+              <a href="#"><img src="./img/dendalien.png" alt="민들레" /></a>
+            </figure>
+          </div>
+
+          <div class="text">
+            <strong>Look at usual thing with unusual eyes.</strong>
+            <h1>색다른 눈으로 평범한 것을 봐라.</h1>
+            <p>Vico Magistretti</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About me -->
+      <section class="section sec2 fp-auto-height">
+        <div class="inner">
+          <h2 class="white">ABOUT ME</h2>
+
+          <div class="about">
+            <div class="about-info">
+              <dl>
+                <dt>이름</dt>
+                <dd>김진영</dd>
+              </dl>
+              <dl>
+                <dt>나이</dt>
+                <dd>1994.10.05</dd>
+              </dl>
+              <dl>
+                <dt>성격</dt>
+                <dd>유머러스함 사고하는 밝은 배려하는</dd>
+              </dl>
+              <dl>
+                <dt>취미</dt>
+                <dd>노래하기 그림그리기</dd>
+              </dl>
+              <dl>
+                <dt>별명</dt>
+                <dd>사자 부처 퓨마</dd>
+              </dl>
+              <p><strong>'사고하고 행동하는 김진영 이라고 합니다.' </strong></p>
+            </div>
+            <div class="about-pic">
+              <figure>
+                <img src="./img/pumalikeme.jpg" alt="adult puma" />
+              </figure>
+            </div>
+          </div>
+
+          <!-- 많은 내용 -->
+          <div class="story-wrap">
+            <div class="story1-wrap">
+              <div class="story story1">
+                <figure data-aos="fade-up-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="500">
+                  <img src="./img/aboutme-img-1.png" alt="물뿜는 행성" />
+                </figure>
+                <p>
+                  <strong data-aos="fade-in" data-aos-duration="700">사막이 아름다운 것은,<br />그것이 어딘가에 우물을 감추고 있기 때문이야</strong>
+                </p>
+              </div>
+              <div class="story1-info">
+                <h3 data-aos="fade-up" data-aos-duration="500">주어진 것의 아름다움을 찾아내는 디자이너</h3>
+                <p data-aos="fade-up" data-aos-duration="1000">
+                  좋은 디자이너란 주어진 정보에서 가장 임팩트 있게 설명하고자 하는 것들을 찾아서 심미성 있게 표현해내는 작업을 하고 있다고 생각합니다. 그래서 주어진 것의 아름다움을 이해해야 그 장점을
+                  살린 디자인이 가능하기에 이미 주어진 이미지 만이 아니라 그안에 있는 아름다움도 찾아내는 디자이너가 되고 싶습니다.
+                </p>
+              </div>
+            </div>
+            <div class="story story2">
+              <div class="story2-img">
+                <figure data-aos="fade-up-left" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <img src="./img/aboutme-img-2.png" alt="나비타고 날아가는 어린왕자" />
+                </figure>
+                <p>
+                  <strong data-aos="fade-in" data-aos-duration="700">글쎄,<br />나는 나비와 친해지려면 두세마리의 애벌레는 견뎌야해</strong>
+                </p>
+              </div>
+              <div class="story2-info">
+                <h3 data-aos="fade-up" data-aos-duration="300">하나의 디자인을 위해 많은 시도를 하는 디자이너</h3>
+                <p data-aos="fade-up">
+                  처음부터 모든것을 알 수 없다면 여러번 시도를 해서 가장 알맞는것을 찾아내는것이 현명한 디자이너 라고 생각합니다. 가장 알맞는 디자인을 위해 좋은 표본을 찾아 배우고 시도하며 발전하는
+                  디자이너가 되겠습니다.
+                </p>
+              </div>
+            </div>
+            <div class="story story3">
+              <div class="story3-img">
+                <figure data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                  <img src="./img/aboutme-img-3.png" alt="장미" />
+                </figure>
+                <p>
+                  <strong data-aos="fade-in" data-aos-duration="700">나는 장미꽃의 말이 아니라 행동에 따라 장미꽃을 판단했어야 했어<br />그녀는 내 별을 향기롭게 해주고 내 삶을 밝혀주었지</strong>
+                </p>
+              </div>
+              <div class="story3-info">
+                <h3 data-aos="fade-up" data-aos-duration="500">배려할줄 아는 디자이너</h3>
+                <p data-aos="fade-up" data-aos-duration="500">
+                  디자인 중 특히 UI디자인은 보는 사람을 배려해야 하는 직업이라고 생각합니다. 많은 정보를 사용자가 보기 편하게 소화시켜 가장 중요한 요소를 전하는 것이기 때문에 이해의 폭이 근본적으로
+                  넓어야 한다고 생각 합니다. 진정한 배려는 상대에 대해 생각하고 나의 기준으로 배려하는 것이 아닌, 상대에게 원하는 것을 묻고 그 대답에 맞는 행동을 하는것이 배려라고 생각합니다.
+                  클라이언트와 클라이언트의 클라이언트에게 묻고 배우며 발전하고 싶습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section sec3">
+        <div class="inner">
+          <h2>SKILLS</h2>
+          <div class="view"></div>
+        </div>
+      </section>
+      <section class="section sec4">
+        <div class="bg">
+          <video muted autoplay loop>
+            <source src="./img/space-port.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="purple-desert">
+          <img src="./img/purple desert.png" alt="보라색 사막" />
+        </div>
+
+        <div class="porfolio">
+          <div class="portfolio-overlay">
+            <div class="porfolio-button-prev"></div>
+            <div class="slide-info">
+              <li>
+                <figure>
+                  <img src="./img/sony-logo.jpg" alt="#" />
+                </figure>
+              </li>
+              <li>
+                <figure><img src="./img/astorflex-logo.png" alt="" /></figure>
+              </li>
+              <li>
+                <figure>
+                  <img src="./img/liken-logo.PNG" alt="#" />
+                </figure>
+              </li>
+            </div>
+            <div class="porfolio-button-next"></div>
+          </div>
+          <div class="port-left">
+            <div class="inner">
+              <h2 class="port-h2">PORTFOLIO</h2>
+              <ul class="port">
+                <li>
+                  <a href="#"><strong>1.</strong>SONY</a>
+                </li>
+                <li>
+                  <a href="#"><strong>2.</strong>ASTORFLEX</a>
+                </li>
+                <li>
+                  <a href="#"><strong>3.</strong>LIKEN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="port-right">
+            <!-- Slider main container -->
+            <div class="swiper slider1">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+
+                <div class="swiper-slide">
+                  <ul class="contents-box">
+                    <li>
+                      <figure>
+                        <img src="./img/sony-mockup.png" alt="" />
+                      </figure>
+                    </li>
+                    <li class="port-info">
+                      <p>UX/UI RESPONSIBLE WEB DESIGN</p>
+                      <dl>
+                        <dt>SONY KOREA</dt>
+                        <dd>소니 이미지에 맞는 직각의 도형을 주로 사용해서 만들었습니다.</dd>
+                      </dl>
+                      <div class="link-button">
+                        <button class="process" type="button">PROCESS</button>
+                        <button class="web-site" type="button">WEB-SITE</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <ul class="contents-box">
+                    <li>
+                      <figure>
+                        <img src="./img/astorflex-mockup.png" alt="astorflex MOCKUP" />
+                      </figure>
+                    </li>
+                    <li class="port-info">
+                      <p>UX/UI RESPONSIBLE WEB DESIGN</p>
+                      <dl>
+                        <dt>ASTORFLEX</dt>
+                        <dd>Astorflex의 색감과 느낌을 유지하면서 만들었습니다.</dd>
+                      </dl>
+                      <button class="process" type="button">PROCESS</button>
+                      <button class="web-site" type="button">WEB-SITE</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <ul class="contents-box">
+                    <li>
+                      <figure>
+                        <img src="./img/liken-portfolio.png" alt="LIKEN mockup" />
+                      </figure>
+                    </li>
+                    <li class="port-info">
+                      <p>UX/UI MOBILE WEB DESIGN</p>
+                      <dl>
+                        <dt>LIKEN</dt>
+                        <dd>커뮤니티를 이용하기에 편리한 UI로 만든 모바일 앱 입니다.</dd>
+                      </dl>
+                      <button class="process" type="button">PROCESS</button>
+                      <button class="web-site" type="button">WEB-SITE</button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="section sec5">
+        <div class="inner">
+          <h2 class="white">CONTACT ME</h2>
+        </div>
+        <div class="garden">
+          <figure><img src="./img/flower1.png" alt="#" /></figure>
+          <figure><img src="./img/flower2.png" alt="#" /></figure>
+          <figure><img src="./img/flower3.png" alt="#" /></figure>
+          <figure><img src="./img/flower4.png" alt="#" /></figure>
+        </div>
+
+        <!-- 명함 -->
+        <div class="identification">
+          <span class="pic"
+            ><figure>
+              <img src="./img/dendaline-logo.png" alt="민들레 로고" /></figure
+          ></span>
+          <dl>
+            <dt>김진영</dt>
+            <dd>kjyy2028@gmail.com</dd>
+            <dd>010.5117.4556</dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <!-- top -->
+    <a href="#" class="btn-top">TOP</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+  </body>
+</html>
