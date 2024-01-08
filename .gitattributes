@@ -1,3 +1,0 @@
-img/cosmos.mp4 filter=lfs diff=lfs merge=lfs -text
-*./img/planet.png filter=lfs diff=lfs merge=lfs -text
-*./img/cosmos.mp4 filter=lfs diff=lfs merge=lfs -text
