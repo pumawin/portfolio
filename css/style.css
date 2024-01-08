@@ -1,10 +1,11 @@
 @charset 'utf-8';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
 @font-face {
-  font-family: 'TAEBAEKmilkyway';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+  font-family: "TAEBAEKmilkyway";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2")
+    format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +24,7 @@ img {
 }
 body {
   line-height: 1.6;
-  font: 1.6rem/1.5 'Montserrat', 'TAEBAEKmilkyway', sans-serif;
+  font: 1.6rem/1.5 "Montserrat", "TAEBAEKmilkyway", sans-serif;
   color: var(--text-color);
   word-break: keep-all; /* wbka 어절단위 줄바꿈 */
 }
@@ -103,26 +104,106 @@ a:hover {
 }
 /* 개별적용 */
 .spore-wrap.active .spore1 {
-  offset-path: path('M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5');
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
 }
 .spore-wrap.active .spore2 {
   animation-delay: 0.2s;
-  offset-path: path('M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5');
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
 }
 .spore-wrap.active .spore3 {
-  offset-path: path('M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1');
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
 }
 .spore-wrap.active .spore4 {
   animation-delay: 0.1;
-  offset-path: path('M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5');
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
 }
 .spore-wrap.active .spore5 {
   animation-delay: 0.4s;
-  offset-path: path('M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5');
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
 }
 .spore-wrap.active .spore6 {
   animation-delay: 0.5s;
-  offset-path: path('M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1');
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
+}
+.spore-wrap.active .spore7 {
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
+}
+.spore-wrap.active .spore8 {
+  animation-delay: 0.2s;
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
+}
+.spore-wrap.active .spore9 {
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
+}
+.spore-wrap.active .spore10 {
+  animation-delay: 0.1;
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
+}
+.spore-wrap.active .spore11 {
+  animation-delay: 0.4s;
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
+}
+.spore-wrap.active .spore12 {
+  animation-delay: 0.5s;
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
+}
+.spore-wrap.active .spore13 {
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
+}
+.spore-wrap.active .spore14 {
+  animation-delay: 0.2s;
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
+}
+.spore-wrap.active .spore15 {
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
+}
+.spore-wrap.active .spore16 {
+  animation-delay: 0.1;
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
+}
+.spore-wrap.active .spore17 {
+  animation-delay: 0.4s;
+  offset-path: path(
+    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+  );
+}
+.spore-wrap.active .spore18 {
+  animation-delay: 0.5s;
+  offset-path: path(
+    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+  );
 }
 
 @keyframes scatterAni {
@@ -260,7 +341,7 @@ html::-webkit-scrollbar {
   z-index: 1001;
 }
 .btn-menu::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 15px;
   left: 50%;
@@ -283,7 +364,7 @@ html::-webkit-scrollbar {
   border-radius: 50px;
 }
 .btn-menu::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 15px;
   left: 50%;
@@ -331,6 +412,7 @@ html::-webkit-scrollbar {
   overflow: hidden;
   margin: 0px auto;
   position: relative;
+  background: #000;
 }
 video {
   width: 100%;
@@ -341,7 +423,7 @@ h2 {
   font-weight: 800;
   color: #000;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   z-index: 3;
 }
 .white {
@@ -362,13 +444,13 @@ h2 {
   display: block;
   color: #fff;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 40px;
   font-weight: 400;
 }
 .text p {
   color: #fff;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 20px;
   font-weight: 400;
   text-align: center;
@@ -377,7 +459,7 @@ h2 {
   color: #f0db4f;
 
   text-align: center;
-  font-family: 'pretendard';
+  font-family: "pretendard";
   font-size: 60px;
   font-weight: 400;
 }
@@ -486,7 +568,7 @@ h2 {
   justify-content: space-between;
 }
 .about-info {
-  font-family: 'pretendard';
+  font-family: "pretendard";
   width: 50%;
   margin-top: 108px;
   width: 750px;
@@ -508,7 +590,7 @@ h2 {
   color: #fff;
 }
 .about-info strong {
-  font-family: 'TAEBAEKmilkyway';
+  font-family: "TAEBAEKmilkyway";
   font-size: 3rem;
   font-weight: 400;
   color: #fff;
@@ -549,7 +631,7 @@ h2 {
   height: 100%;
 }
 .story strong {
-  font-family: 'TAEBAEKmilkyway';
+  font-family: "TAEBAEKmilkyway";
   font-size: 2.5rem;
   font-weight: 400;
 }
@@ -572,7 +654,7 @@ h3 {
 }
 
 .story-wrap p {
-  font-family: 'pretendard';
+  font-family: "pretendard";
   font-weight: 400;
   font-size: 2.2rem;
   line-height: 1.7;
@@ -923,7 +1005,7 @@ button:hover {
 }
 .identification dl {
   text-align: center;
-  font-family: 'pretendard';
+  font-family: "pretendard";
 }
 .identification dl dt {
   font-size: 3rem;
@@ -998,7 +1080,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
-  font-family: 'pretendard';
+  font-family: "pretendard";
   font-weight: 700;
   text-decoration: none;
 }
@@ -1072,75 +1154,111 @@ button:hover {
 
 /* 개별적용 */
 .spore-wrap.active .spore1 {
-  offset-path: path('M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
+  );
 }
 .spore-wrap.active .spore2 {
   animation-delay: 0.2s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore3 {
   animation-delay: 0.6s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 .spore-wrap.active .spore4 {
   animation-delay: 0.9;
-  offset-path: path('M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
+  );
 }
 .spore-wrap.active .spore5 {
   animation-delay: 1.2s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore6 {
   animation-delay: 1.5s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 .spore-wrap.active .spore7 {
   animation-delay: 1.8s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore8 {
   animation-delay: 2.1s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore9 {
   animation-delay: 2.4s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 .spore-wrap.active .spore10 {
   animation-delay: 2.7s;
-  offset-path: path('M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
+  );
 }
 .spore-wrap.active .spore11 {
   animation-delay: 0.4s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore12 {
   animation-delay: 0.7s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 .spore-wrap.active .spore13 {
   animation-delay: 1s;
-  offset-path: path('M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5');
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
 }
 .spore-wrap.active .spore14 {
   animation-delay: 1.3s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore15 {
   animation-delay: 1.5s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 .spore-wrap.active .spore16 {
   animation-delay: 1.9s;
-  offset-path: path('M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5');
+  offset-path: path(
+    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+  );
 }
 .spore-wrap.active .spore17 {
   animation-delay: 2.2s;
-  offset-path: path('M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1');
+  offset-path: path(
+    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
+  );
 }
 .spore-wrap.active .spore18 {
   animation-delay: 2.7s;
-  offset-path: path('M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1');
+  offset-path: path(
+    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+  );
 }
 
 @keyframes scatterAni {
