@@ -28,6 +28,7 @@ body {
   color: var(--text-color);
   word-break: keep-all; /* wbka 어절단위 줄바꿈 */
 }
+
 .cursor {
   position: absolute;
   top: 0;
@@ -450,7 +451,7 @@ h2 {
 .planet {
   position: absolute;
   left: -8%;
-  bottom: -48%;
+  bottom: -35%;
   width: 769px;
   height: 694px;
   z-index: 8;
@@ -845,7 +846,7 @@ img {
   display: flex;
 }
 
-button {
+.link-button button {
   width: 163px;
   height: 43px;
   color: #fff;
@@ -855,7 +856,7 @@ button {
   font-weight: 300;
   margin-top: 20px;
 }
-button:hover {
+.link-button button {
   background-color: #f7df1e;
 }
 .port-right {
