@@ -694,25 +694,14 @@ h3 {
 }
 .story3-img figure {
   margin: 0 auto;
-  width: 170.871px;
-  height: 312.155px;
+  width: 439.23px;
+  height: 612.06px;
 }
 .story3-img img {
   width: 100%;
   height: 100%;
 }
-.ex {
-  transition: 0.4s;
-  transform-origin: 50% 50%; /* trfo */
-}
-.box {
-  position: absolute;
-  z-index: 2;
-  width: 439.303px;
-  height: 612.015px;
-  left: 0;
-  bottom: 0;
-}
+
 .story3-img p {
   position: absolute;
   left: 0;
@@ -884,7 +873,7 @@ button:hover {
 .portfolio-overlay {
   position: absolute;
   top: 100px;
-  left: calc(27% - 120px);
+  left: calc(27% - 195px);
 
   display: flex;
   align-items: center;
@@ -906,15 +895,15 @@ button:hover {
 
 .portfolio-overlay .slide-info {
   position: relative;
-  width: 107px;
-  height: 107px;
+  width: 250px;
+  height: 250px;
 }
 .slide-info li {
   position: absolute;
   top: 0;
   left: 0;
-  width: 107px;
-  height: 107px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   border-radius: 50%;
   opacity: 0;
@@ -1253,7 +1242,7 @@ button:hover {
   font-family: "pretendard";
 }
 .identification dl dt {
-  font-size: 3rem;
+  font-size: 7rem;
   font-weight: 700;
 }
 .identification dl dd {

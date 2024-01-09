@@ -283,16 +283,5 @@ $(function () {
     $(this).add($allMenu).toggleClass("active");
   });
 
-  new Vivus(
-    "myClose",
-    {
-      duration: 1200,
-      type: "oneByOne",
-    },
-    function () {
-      document.querySelector(".ex").style.transform = "rotate(360deg)";
-    }
-  );
-
   AOS.init();
 });
