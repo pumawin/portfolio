@@ -308,14 +308,19 @@ $(function () {
     e.preventDefault();
     $(this).add($allMenu).toggleClass("active");
   });
-  document.addEventListener("click", function (event) {
-    const isMenuClicked = $allMenu.contains(event.target);
-    const isButtonClicked = $btnMenu.contains(event.target);
+  // document.addEventListener("click", function (event) {
+  //   const isMenuClicked = $allMenu.contains(event.target);
+  //   const isButtonClicked = $btnMenu.contains(event.target);
 
-    // Close the menu if clicked outside or if the button is clicked
-    if (!isMenuClicked && !isButtonClicked) {
-      allMenu.classList.remove("active");
-    }
+  //   // Close the menu if clicked outside or if the button is clicked
+  //   if (!isMenuClicked && !isButtonClicked) {
+  //     $allMenu.classList.remove("active");
+  //   }
+  // });
+
+  $(document).on("click", function (e) {
+    console.dir(e.target);
+    // $allMenu.removeClass("active");
   });
 
   AOS.init();

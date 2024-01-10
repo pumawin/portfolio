@@ -249,6 +249,7 @@ html::-webkit-scrollbar {
 .all-menu.active {
   right: 0%;
 }
+
 .menu {
   vertical-align: center;
   padding: 150px 50px;
