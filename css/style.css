@@ -76,6 +76,8 @@ a:hover {
   /* border: 1px solid #000; */
   margin: 0 auto;
   position: relative;
+  left: 50%;
+  bottom: 70%;
 }
 .spore-wrap.active .spore {
   width: 24px;
@@ -84,139 +86,115 @@ a:hover {
 
   /* 공통 적용 */
   background: url(../img/main-blow-dandelien.svg); /* 이미지 넣는용 */
-  animation: scatterAni 4s both;
+  animation: scatterAni 10s both;
 }
 /* 개별적용 */
 .spore-wrap.active .spore1 {
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore2 {
   animation-delay: 0.2s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore3 {
+  animation-delay: 0.6s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
 }
 .spore-wrap.active .spore4 {
-  animation-delay: 0.1;
+  animation-delay: 0.9;
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore5 {
-  animation-delay: 0.4s;
+  animation-delay: 1.2s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore6 {
-  animation-delay: 0.5s;
+  animation-delay: 1.5s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
 }
 .spore-wrap.active .spore7 {
+  animation-delay: 1.8s;
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore8 {
-  animation-delay: 0.2s;
+  animation-delay: 2.1s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore9 {
+  animation-delay: 2.4s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
 }
 .spore-wrap.active .spore10 {
-  animation-delay: 0.1;
+  animation-delay: 2.7s;
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore11 {
   animation-delay: 0.4s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore12 {
-  animation-delay: 0.5s;
+  animation-delay: 0.7s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
 }
 .spore-wrap.active .spore13 {
+  animation-delay: 1s;
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore14 {
-  animation-delay: 0.2s;
+  animation-delay: 1.3s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore15 {
+  animation-delay: 1.5s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
 }
-.spore-wrap.active .spore16 {
-  animation-delay: 0.1;
+.spore2-wrap.active .spore16 {
+  animation-delay: 1.9s;
   offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
+    "M1 137C102.24 63.5081 357 -48.4998 640.5 24.5004C916.668 95.6125 1062.5 226.5 1313.5 137"
   );
 }
 .spore-wrap.active .spore17 {
-  animation-delay: 0.4s;
+  animation-delay: 2.2s;
   offset-path: path(
-    "M1 133.96C85.1969 72.6546 421.968 25.7631 693 157C788 203 1178.5 393.5 1397 0.5"
+    "M1 246C102.24 172.508 487.125 -14.6906 758.322 73.5C1029.52 161.691 1174.05 163.782 1265 1"
   );
 }
 .spore-wrap.active .spore18 {
-  animation-delay: 0.5s;
+  animation-delay: 2.7s;
   offset-path: path(
-    "M1 88.9602C85.1969 27.6546 447.917 -16.9919 686.363 166.925C866.544 305.901 1196.6 406.816 1301 1"
+    "M1 227.001C102.24 153.509 407.805 5.38418 675 125.001C933 240.501 812 -36.0001 1247.5 5.49982"
   );
-}
-
-@keyframes scatterAni {
-  0% {
-    offset-distance: 0%;
-    opacity: 0;
-    transform: rotate(0);
-  }
-  10% {
-    offset-distance: 10%;
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-    transform: rotate(360deg);
-  }
-  80% {
-    opacity: 0;
-  }
-  90% {
-    offset-distance: 90%;
-    opacity: 0;
-  }
-  100% {
-    offset-distance: 100%;
-    /* 패스의 시작지점에서 종료지점까지 가라 라는 의미이다. 종료지점은 반드시 100%여야 한다. */
-    opacity: 0;
-    transform: rotate(90deg);
-  }
 }
 
 /* 스크롤바 디자인 변경 */
@@ -279,7 +257,6 @@ html::-webkit-scrollbar {
   height: 100px;
   /* border: 1px solid yellow; */
 }
-
 .menu li a {
   display: block;
   width: 100%;
@@ -319,7 +296,6 @@ html::-webkit-scrollbar {
   position: fixed;
   top: 20px;
   right: 30px;
-
   width: 50px;
   height: 50px;
   z-index: 1001;
@@ -334,6 +310,10 @@ html::-webkit-scrollbar {
   height: 3px;
   background: #fff;
   border-radius: 50px;
+}
+.btn-menu.black::before {
+  content: "";
+  background: #000;
 }
 .btn-menu b {
   position: absolute;
@@ -358,6 +338,9 @@ html::-webkit-scrollbar {
   background: #fff;
   transition: 0.35s;
   border-radius: 50px;
+}
+.btn-menu.black::after {
+  background: #000;
 }
 
 /* active 클래스가 생기면  */
@@ -536,7 +519,12 @@ h2 {
   z-index: -2;
 }
 .b-bg {
-  background-color: #000;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #180f27;
   z-index: -1;
 }
 
@@ -809,12 +797,14 @@ img {
   display: flex;
   gap: 50px;
   align-items: center;
-  /* border: 1px solid yellow; */
+  /* border: 1px solid #5f5; */
+  width: 88%;
+  height: 600px;
+  margin: 0 auto;
 }
 
 .contents-box li {
-  height: 600px;
-  width: 700px;
+  width: 60%;
   /* border: 1px solid red; */
 }
 .contents-box li figure {
@@ -831,8 +821,6 @@ img {
   height: 472px;
   border: 10px solid #f0db4f;
   padding: 65px 55px;
-  display: fixed;
-  margin: 0 auto;
 }
 .purple-desert {
   width: 100%;
@@ -860,12 +848,11 @@ img {
   font-size: 20px;
   font-weight: 400;
 }
-.port-info button {
-  margin: 20px 5px 0;
-}
 
 .link-button {
   display: flex;
+  margin-top: 40px;
+  gap: 10px;
 }
 
 .link-button button {
@@ -873,13 +860,17 @@ img {
   height: 43px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid #f7df1e;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 300;
   margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.link-button button {
+.link-button button:hover {
   background-color: #f7df1e;
+  color: #000;
 }
 .port-right {
   width: 73%;
@@ -896,7 +887,7 @@ img {
 .portfolio-overlay {
   position: absolute;
   top: 100px;
-  left: calc(27% - 195px);
+  left: calc(27% - 152px);
 
   display: flex;
   align-items: center;
@@ -904,29 +895,30 @@ img {
 }
 
 .porfolio-button-prev {
-  background: url(../img/port-left-arrow.svg);
+  background: url(../img/port-left-arrow.svg) no-repeat 0 0 / contain;
   width: 47px;
   height: 47px;
   cursor: pointer;
 }
 .porfolio-button-next {
-  background: url(../img/port-right-arrow.svg);
+  background: url(../img/port-right-arrow.svg) no-repeat 0 0 / contain;
   width: 47px;
   height: 47px;
   cursor: pointer;
+  z-index: 2;
 }
 
 .portfolio-overlay .slide-info {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 170px;
+  height: 170px;
 }
 .slide-info li {
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px;
-  height: 250px;
+  width: 170px;
+  height: 170px;
   overflow: hidden;
   border-radius: 50%;
   opacity: 0;
@@ -1008,231 +1000,77 @@ img {
   bottom: 25%;
 }
 .spore2-wrap.active .spore {
-  width: 32px;
-  height: 50px;
+  width: 27px;
+  height: 18px;
   /* 액티브가 들어갔을때 애니메이션이 적용된다. */
-
   /* 공통 적용 */
-  background: url(../img/main-blow-dandelien.svg); /* 이미지 넣는용 */
-  animation: scatterAni 20s infinite both;
+  background: url(../img/contact-den-leaf.svg) no-repeat 0 0 / contain; /* 이미지 넣는용 */
+  animation: scatterAni 15s infinite both;
 }
 /* 개별적용 */
 .spore2-wrap.active .spore1 {
   offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
+    "M1 141.786C129 83.0002 157.305 22.1689 424.5 141.785C682.5 257.285 1102.5 -90.0004 1502 23.9999"
   );
 }
 .spore2-wrap.active .spore2 {
-  animation-delay: 0.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore3 {
-  animation-delay: 0.6s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore2-wrap.active .spore4 {
-  animation-delay: 0.9;
-  offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore5 {
-  animation-delay: 1.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore6 {
-  animation-delay: 1.5s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore2-wrap.active .spore7 {
-  animation-delay: 1.8s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore8 {
-  animation-delay: 2.1s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore9 {
-  animation-delay: 2.4s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore2-wrap.active .spore10 {
-  animation-delay: 2.7s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore11 {
-  animation-delay: 0.4s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore12 {
   animation-delay: 0.7s;
   offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore2-wrap.active .spore13 {
-  animation-delay: 1s;
-  offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
-  );
-}
-.spore2-wrap.active .spore14 {
-  animation-delay: 1.3s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore15 {
-  animation-delay: 1.5s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore2-wrap.active .spore16 {
-  animation-delay: 1.9s;
-  offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
-  );
-}
-.spore2-wrap.active .spore17 {
-  animation-delay: 2.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore2-wrap.active .spore18 {
-  animation-delay: 2.7s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
+    "M1 69.7859C129 11.0006 157.305 -49.8307 424.5 69.7858C682.5 185.286 1010.5 -108.5 1484.5 170"
   );
 }
 
-/* .spore2-wrap.active .spore1 {
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
-  );
-}
-.spore2-wrap.active .spore2 {
+.spore2-wrap.active .spore3 {
   animation-delay: 0.2s;
   offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore3 {
-  animation-delay: 0.4s;
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
+    "M1 141.786C129 83.0002 157.305 22.1689 424.5 141.785C682.5 257.285 1102.5 -90.0004 1502 23.9999"
   );
 }
 .spore2-wrap.active .spore4 {
-  animation-delay: 0.6;
+  animation-delay: 0.9s;
   offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
+    "M1 69.7859C129 11.0006 157.305 -49.8307 424.5 69.7858C682.5 185.286 1010.5 -108.5 1484.5 170"
   );
 }
+
 .spore2-wrap.active .spore5 {
-  animation-delay: 0.8s;
+  animation-delay: 0.5s;
   offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
+    "M1 141.786C129 83.0002 157.305 22.1689 424.5 141.785C682.5 257.285 1102.5 -90.0004 1502 23.9999"
   );
 }
 .spore2-wrap.active .spore6 {
-  animation-delay: 1s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore7 {
   animation-delay: 1.2s;
   offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
+    "M1 69.7859C129 11.0006 157.305 -49.8307 424.5 69.7858C682.5 185.286 1010.5 -108.5 1484.5 170"
+  );
+}
+
+.spore2-wrap.active .spore7 {
+  animation-delay: 0.9s;
+  offset-path: path(
+    "M1 141.786C129 83.0002 157.305 22.1689 424.5 141.785C682.5 257.285 1102.5 -90.0004 1502 23.9999"
   );
 }
 .spore2-wrap.active .spore8 {
-  animation-delay: 1.4s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore9 {
   animation-delay: 1.6s;
   offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
+    "M1 69.7859C129 11.0006 157.305 -49.8307 424.5 69.7858C682.5 185.286 1010.5 -108.5 1484.5 170"
+  );
+}
+
+.spore2-wrap.active .spore9 {
+  animation-delay: 2.2s;
+  offset-path: path(
+    "M1 141.786C129 83.0002 157.305 22.1689 424.5 141.785C682.5 257.285 1102.5 -90.0004 1502 23.9999"
   );
 }
 .spore2-wrap.active .spore10 {
-  animation-delay: 1.8s;
+  animation-delay: 2.5s;
   offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
+    "M1 69.7859C129 11.0006 157.305 -49.8307 424.5 69.7858C682.5 185.286 1010.5 -108.5 1484.5 170"
   );
 }
-.spore2-wrap.active .spore11 {
-  animation-delay: 2s;
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
-  );
-}
-.spore2-wrap.active .spore12 {
-  animation-delay: 2.2s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore13 {
-  animation-delay: 2.4s;
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
-  );
-}
-.spore2-wrap.active .spore14 {
-  animation-delay: 2.6s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore15 {
-  animation-delay: 2.8s;
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
-  );
-}
-.spore2-wrap.active .spore16 {
-  animation-delay: 3s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-}
-.spore2-wrap.active .spore17 {
-  animation-delay: 3.2s;
-  offset-path: path(
-    "M1 45.4999C58 -25.5006 302.5 -9.5006 639 76.4999C1137.64 203.94 1221.5 239.5 1504.5 125"
-  );
-}
-.spore2-wrap.active .spore18 {
-  animation-delay: 3.4s;
-  offset-path: path(
-    "M1 409.5C25.6667 316.667 187.8 192.9 639 440.5C1090.2 688.1 1431.33 250.333 1545.5 0.5"
-  );
-} */
-
 .identification {
   width: 1020px;
   height: 660px;
@@ -1387,142 +1225,10 @@ img {
   }
 }
 
-/* 민들레 홀씨 날리기 */
-.spore-wrap {
-  width: 900px;
-  height: 421px;
-  z-index: 50;
-  position: absolute;
-  left: 10%;
-  bottom: 50%;
-}
-.spore-wrap.active .spore {
-  width: 32px;
-  height: 50px;
-  /* 액티브가 들어갔을때 애니메이션이 적용된다. */
-
-  /* 공통 적용 */
-  background: url(../img/main-blow-dandelien.svg); /* 이미지 넣는용 */
-  animation: scatterAni 10s both;
-  position: absolute;
-  left: 10%;
-  bottom: 15%;
-}
-
-/* 개별적용 */
-.spore-wrap.active .spore1 {
-  offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
-  );
-}
-.spore-wrap.active .spore2 {
-  animation-delay: 0.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore3 {
-  animation-delay: 0.6s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore-wrap.active .spore4 {
-  animation-delay: 0.9;
-  offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
-  );
-}
-.spore-wrap.active .spore5 {
-  animation-delay: 1.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore6 {
-  animation-delay: 1.5s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore-wrap.active .spore7 {
-  animation-delay: 1.8s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore8 {
-  animation-delay: 2.1s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore9 {
-  animation-delay: 2.4s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore-wrap.active .spore10 {
-  animation-delay: 2.7s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 337.5 92.0999 583.5 220.5C829.5 348.9 1034 127.667 1105.5 1"
-  );
-}
-.spore-wrap.active .spore11 {
-  animation-delay: 0.4s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore12 {
-  animation-delay: 0.7s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore-wrap.active .spore13 {
-  animation-delay: 1s;
-  offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
-  );
-}
-.spore-wrap.active .spore14 {
-  animation-delay: 1.3s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore15 {
-  animation-delay: 1.5s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-.spore-wrap.active .spore16 {
-  animation-delay: 1.9s;
-  offset-path: path(
-    "M1 161.96C85.1969 100.655 282.468 -84.7369 553.5 46.5C740.5 137.047 1033.5 549.5 1433 115.5"
-  );
-}
-.spore-wrap.active .spore17 {
-  animation-delay: 2.2s;
-  offset-path: path(
-    "M0.5 381C92.3333 274 361 24.1 607 152.5C853 280.9 1023 238 1105.5 1"
-  );
-}
-.spore-wrap.active .spore18 {
-  animation-delay: 2.7s;
-  offset-path: path(
-    "M1 246C94.911 172.508 451.934 -14.6906 703.5 73.5C955.066 161.691 1089.13 163.782 1173.5 1"
-  );
-}
-
 @keyframes scatterAni {
   0% {
     offset-distance: 0%;
     opacity: 0;
-    transform: rotate(0);
   }
   10% {
     offset-distance: 10%;
@@ -1530,7 +1236,6 @@ img {
   }
   30% {
     opacity: 1;
-    transform: rotate(360deg);
   }
   80% {
     opacity: 0;
@@ -1543,6 +1248,5 @@ img {
     offset-distance: 100%;
     /* 패스의 시작지점에서 종료지점까지 가라 라는 의미이다. 종료지점은 반드시 100%여야 한다. */
     opacity: 0;
-    transform: rotate(90deg);
   }
 }

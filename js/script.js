@@ -132,7 +132,7 @@ $(function () {
     if (scrollTop >= $(".story3").offset().top - 500) {
       gsap.to(".story3-img figure img:nth-child(1)", {
         autoAlpha: 0,
-        dureation: 2,
+        duration: 2,
       });
     }
   });
@@ -197,16 +197,27 @@ $(function () {
       if (anchorLink === "sec5") {
         $btnTop.fadeIn();
         sporeWrap2.classList.add("active");
+        $(".btn-menu").removeClass("black");
+        $(".btn-menu black:before").css("background-color", "#fff");
+        $(".btn-menu b").css("background-color", "#fff");
       }
 
       if (anchorLink === "sec3") {
         runMatterAnimation();
+        $(".btn-menu").addClass("black");
+        $(".btn-menu black:before").css("background-color", "#000");
+        $(".btn-menu b").css("background-color", "#000");
+      }
+      if (anchorLink === "sec4") {
+        $(".btn-menu").removeClass("black");
+        $(".btn-menu black:before").css("background-color", "#fff");
+        $(".btn-menu b").css("background-color", "#fff");
       }
 
       // 두번째 영역에서는 자동 스크롤 취소 걸고나서 풀어준다
       if (anchorLink === "sec2") {
         $.fn.fullpage.setAutoScrolling(false);
-        bgChange();
+        $(".b-bg").fadeOut(4000);
       } else {
         $.fn.fullpage.setAutoScrolling(true);
       }
@@ -221,7 +232,10 @@ $(function () {
       if (index === 5 && direction === "up") {
         $btnTop.fadeOut();
       }
-
+      if (index !== 3) {
+        $(".btn-menu").removeClass("black");
+        $(".btn-menu b").css("background-color", "#fff");
+      }
       if (index === 1 && direction === "down") {
         cancelAnimationFrame(movingObj);
       }
@@ -235,10 +249,9 @@ $(function () {
     // fullpage 메서드 :원하는 영역이름 탑버튼을 위해 사용
     $.fn.fullpage.moveTo(1);
   });
-
   // swiper
   const slider1 = new Swiper(".slider1", {
-    autoplay: true,
+    // autoplay: true,
     loop: true,
 
     on: {
@@ -294,6 +307,15 @@ $(function () {
   $btnMenu.on("click", function (e) {
     e.preventDefault();
     $(this).add($allMenu).toggleClass("active");
+  });
+  document.addEventListener("click", function (event) {
+    const isMenuClicked = $allMenu.contains(event.target);
+    const isButtonClicked = $btnMenu.contains(event.target);
+
+    // Close the menu if clicked outside or if the button is clicked
+    if (!isMenuClicked && !isButtonClicked) {
+      allMenu.classList.remove("active");
+    }
   });
 
   AOS.init();
