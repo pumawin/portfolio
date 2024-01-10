@@ -112,6 +112,7 @@ $(function () {
   mainTL.from($den1, { autoAlpha: 0, duration: 0.1, ease: "power1.in" });
   mainTL.from($den2, { autoAlpha: 0, duration: 0.1, ease: "power1.in" });
   mainTL.from($den3, { autoAlpha: 0, duration: 0.1, ease: "power1.in" });
+
   mainTL.from("#myMenu", {
     autoAlpha: 0,
     ease: "power1.in",
@@ -123,6 +124,17 @@ $(function () {
     /* repeat: 2 */ /* 원래동작 + 2 ,*/ repeat: -1 /* infinite */,
     yoyo: true /* alternate */,
     duration: 2,
+  });
+
+  // 스크롤이 스토리 3에 도달하면 애니메이션 실행
+  $window.on("scroll", function () {
+    let scrollTop = $(this).scrollTop();
+    if (scrollTop >= $(".story3").offset().top - 500) {
+      gsap.to(".story3-img figure img:nth-child(1)", {
+        autoAlpha: 0,
+        dureation: 2,
+      });
+    }
   });
 
   // dandelien 홀씨 날리는 모습
@@ -194,6 +206,7 @@ $(function () {
       // 두번째 영역에서는 자동 스크롤 취소 걸고나서 풀어준다
       if (anchorLink === "sec2") {
         $.fn.fullpage.setAutoScrolling(false);
+        bgChange();
       } else {
         $.fn.fullpage.setAutoScrolling(true);
       }

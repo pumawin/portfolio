@@ -448,16 +448,22 @@ h2 {
   font-weight: 600;
 }
 /* 어린왕자, 여우, 행성 */
+.prince-wrap {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 578px;
+  height: 527px;
+}
 .planet {
   position: absolute;
-  left: -8%;
-  bottom: -35%;
-  width: 769px;
-  height: 694px;
+  left: 0;
+  bottom: -20px;
+  width: 578px;
+  height: 215px;
   z-index: 8;
   overflow: hidden;
 }
-
 .prince {
   position: absolute;
   left: 0;
@@ -470,7 +476,7 @@ h2 {
 }
 .fox {
   position: absolute;
-  left: 8%;
+  left: 26%;
   bottom: 7%;
   width: 200px;
   height: 220px;
@@ -480,8 +486,8 @@ h2 {
 }
 .dendalien-missing {
   position: absolute;
-  left: 19%;
-  bottom: 33%;
+  left: 62%;
+  bottom: 55%;
   width: 60px;
   height: 65px;
   background: url(../img/dendalien-missing.png) no-repeat 0 0;
@@ -527,6 +533,11 @@ h2 {
 /* about me */
 .sec2 {
   background: linear-gradient(45deg, #22006a, #8c0076);
+  z-index: -2;
+}
+.b-bg {
+  background-color: #000;
+  z-index: -1;
 }
 
 .about-pic {
@@ -689,18 +700,29 @@ h3 {
   position: relative;
   justify-content: space-between;
 }
-.story3-img {
+
+.box {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.story3-img figure img:nth-child(1) {
+  position: absolute;
+  margin: 0 auto;
+  z-index: 5;
+  left: -21px;
+  bottom: -528px;
   width: 620px;
   height: 600px;
 }
-.story3-img figure {
+.story3-img figure img:nth-child(2) {
+  position: absolute;
   margin: 0 auto;
-  width: 439.23px;
-  height: 612.06px;
-}
-.story3-img img {
-  width: 100%;
-  height: 100%;
+  left: 215px;
+  bottom: -520px;
+  width: 170.871px;
+  height: 312.155px;
 }
 
 .story3-img p {
