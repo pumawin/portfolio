@@ -276,8 +276,8 @@ $(function () {
 
     // Navigation arrows
     navigation: {
-      nextEl: ".porfolio-button-prev",
-      prevEl: ".porfolio-button-next",
+      nextEl: ".porfolio-button-next",
+      prevEl: ".porfolio-button-prev",
     },
 
     // And if we need scrollbar
